@@ -10,6 +10,7 @@
 
 有一些我在blog上整理了思路
 
+* [codewars-Haskell-4kyu](http://duanchifei.com/?p=263)
 * [codewars-Haskell-5kyu](http://duanchifei.com/?p=217)
 * [codewars-Haskell-6kyu](http://duanchifei.com/?p=245)
 
