@@ -1,4 +1,5 @@
-import Text.Printf
+import Text.Printf(printf)
+-- 错误
 
 {-
 leaveTow :: Double -> String
@@ -10,5 +11,5 @@ leaveTow num = show h ++ (tail $ take 4 $ show t)
 
 seriesSum :: Integer -> String
 --seriesSum n = printf "%.2f" (sum $ map (1.0/) $ take (fromInteger n :: Int) [1.0,4.0..]) :: String
-seriesSum n = (printf "%d" 1 :: String)
 
+seriesSum n = printf "%d" 1 :: String
