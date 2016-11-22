@@ -23,6 +23,7 @@ loop (x, y) (ex, ey) = do
     input_line <- getLine
     let remainingturns = read input_line :: Int -- The remaining amount of turns Thor can move. Do not remove this line.
     
+    -- my solution
     
     let (ansx, x') = case compare x ex of
                      LT -> ("E", x+1)
@@ -35,4 +36,6 @@ loop (x, y) (ex, ey) = do
     
     putStrLn $ ansy++ansx
     loop (x', y') (ex, ey)
+
+    -- end
     
