@@ -18,3 +18,4 @@ numberToOrdinal n = xs ++ suf
   where xs  = show n
         len = length xs
         suf = getSuffix (if len==1 then '0':[last xs] else drop (len-2) xs)
+
